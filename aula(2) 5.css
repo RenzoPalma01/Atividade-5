@@ -1,0 +1,91 @@
+body{
+   text-align: center;
+   font-family: cursive;
+   text-shadow: 5px 5px 5px greenyellow;
+   background: linear-gradient();
+   background-color: brown;
+
+}
+  #dl{
+
+   width: 100px; /*largura*/
+   height: 75px; /*altura*/
+   background-color: rgb(172,145,197);
+   border: 5px solid rgb(63,51,51);
+   margin-left: auto; /*margem automática a esquerda*/
+   color: rgb(49, 117, 94);
+   margin-top: 30px;
+   -ms-transform: rotate(30deg); /*IE 9*/
+   transform: rotate(30deg);
+   -webkit-transform: rotate(15deg); /* safari and chrome*/;
+
+  }
+  #d2{
+    border-style: solid;
+    border-width: medium;
+    box-shadow: 10px 10px 10px purple; /*sombra na tela*/
+    border-radius: 25px;
+
+    }
+   #d3{
+      width: 130px; 
+      height: 130px;
+      background-color: rgb(83, 92, 96);
+      color: rgb(12, 12, 11);
+      border-style: dotted;
+      float: none;
+      position: fixed;
+
+   }
+   #d4{
+       width: 140px;
+       height: 70px;
+       background-color: rgb(209, 6, 231);
+       color: rgb(17, 17, 11);
+       margin-left: auto; /*margem automática a esquerda*/
+       margin-right: auto;
+       margin-top: 30px;
+       border-style:dashed;
+
+       animation: teste 5s;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+   }
+   @keyframes teste{
+      from{box-shadow: 10px 10px 10px rebeccapurple} 
+      to{box-shadow: 10px 10px 10px rgb(5, 7, 72);} 
+
+   }
+
+
+   .Super{
+      display: inline-block; /*org*/
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px
+
+      animation: teste 5s;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+     
+    
+
+   }
+    @keyframes teste{
+      from{box-shadow: 10px, 10px, 10px aqua;} 
+      to{box-shadow: 10px, 10px, 10px rgb(255, 255, 255);}
+    }
+   
+
+   
+   
+
+ 
+    
+ 
+ 
+    border
+ 
+    }
+   
+   
